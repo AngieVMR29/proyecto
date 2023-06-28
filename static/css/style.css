@@ -1,0 +1,98 @@
+nav {
+    height: 100px;
+    display: flex;
+    background-color: rgba(22,168,53,255);
+    align-items: center;
+  }
+.logo{
+  width: 750px;
+}
+.enl{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.enl:hover{
+  background-color: #24384e; 
+}
+
+.opciones {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.boton-f {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: rgba(22,168,53,255);
+  text-decoration: none;
+}
+.enl1 {
+  right: 9rem;
+}
+.enl2 {
+  right: 1rem;
+}
+
+
+/*Aquí termina la edición del nav*/
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+}
+
+.templates {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"], input[type="text"],input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" type = "text/css" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <img src="{{url_for('static', filename='img/logo.png')}}" width="90px" height="90px">
+            </div>
+            <div class="opciones">
+                <a href="#" class="enl">Inicio</a>
+                <a href="#" class="enl">Productos</a>
+                <a href="#"class="enl">Servicios</a>
+                <a href="#" class="enl">Contactanos</a>
+            </div>
+        </nav>
+      </header>
+    <div class="Inicio">
+        <a href="/login" class="boton-f enl1">Inicia sesión</a>
+        <a href="/registro" class="boton-f enl2">Registrate</a>
+    </div>
+    
+    {% block content %}
+    
+    {% endblock %}
+</body>
+</html>
